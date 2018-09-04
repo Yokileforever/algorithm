@@ -28,6 +28,7 @@ public:
 		for (int i = 0; i < size; ++i) {
 			_freeNode.push_back(_entries + i);
 		}
+		
 		_tail = new Node<K, T>;
 		_head = new Node<K, T>;
 		_tail->prev = _head;
